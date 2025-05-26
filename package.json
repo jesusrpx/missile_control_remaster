@@ -1,0 +1,29 @@
+{
+  "name": "missile_control_remaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main-electron.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusrpx/missile_control_remaster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusrpx/missile_control_remaster/issues"
+  },
+  "homepage": "https://github.com/jesusrpx/missile_control_remaster#readme",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "electron": "^36.3.1"
+  }
+}

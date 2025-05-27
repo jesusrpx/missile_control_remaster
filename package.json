@@ -2,12 +2,12 @@
   "name": "missile_control_remaster",
   "version": "1.0.0",
   "description": "",
-  "main": "main-electron.js",
   "type": "module",
+  "main": "main-electron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "webpack --mode production"
+    "build": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,19 @@
     "phaser": "^3.90.0"
   },
   "devDependencies": {
-    "electron": "^36.3.1"
+    "electron": "^36.3.1",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.jesusrpx.missile_control_remaster",
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
   }
 }

@@ -4,16 +4,15 @@ import { app, BrowserWindow } from 'electron'
 // Creacion de la ventana principal
 function createWindow() {
     const win = new BrowserWindow({
-        width: 440,
-        height: 440,
-        backgroundColor: '#38491e',
+        width: 720,
+        height: 480,
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,
         },
         title: "Missile Control",
         frame: true,
-        titleBarStyle: 'default',
+        autoHideMenuBar: true,
     })
 
     // Carga el contenido de la pagina

@@ -4,8 +4,8 @@ import { app, BrowserWindow } from 'electron'
 // Creacion de la ventana principal
 function createWindow() {
     const win = new BrowserWindow({
-        width: 720,
-        height: 480,
+        width: 1080,
+        height: 720,
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,

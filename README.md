@@ -16,7 +16,7 @@ Para construir a la plataforma objetivo, usar el siguiente comando
 > Por defecto el build detecta la plataforma objetivo a construir
 
     
-    npm build
+    npm run build
 
 # Creditos
 - **Jesús Rojas** - CI: 30.160.347

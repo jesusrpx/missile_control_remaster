@@ -28,9 +28,9 @@ class MissileLevel extends Phaser.Scene {
         const platmoon = this.add.image(470, 640, "moon").setOrigin(0.5, 1);
 
         // Línea horizontal (horizonte)
-        const graphics = this.add.graphics();
-        graphics.lineStyle(2, 0x8000ff, 1); // Violeta oscuro
-        graphics.strokeLineShape(new Phaser.Geom.Line(0, 100, this.sys.game.config.width, 100));
+        // const graphics = this.add.graphics();
+        // graphics.lineStyle(2, 0x8000ff, 1); // Violeta oscuro
+        // graphics.strokeLineShape(new Phaser.Geom.Line(0, 100, this.sys.game.config.width, 100));
 
         // Bases divididas en segmentos
         this.bases = this.physics.add.staticGroup();

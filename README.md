@@ -18,6 +18,10 @@ Para construir a la plataforma objetivo, usar el siguiente comando
     
     npm run build
 
+# Controles
+
+Teclas arriba, abajo, izquierda y derecha para moverse, espacio para disparar
+
 # Creditos
 - **Jesús Rojas** - CI: 30.160.347
 - **Mayerlin Gavidia** - CI: 30.046.452
